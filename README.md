@@ -266,7 +266,7 @@ A massive thank you to  [@AlexKornitzer](https://twitter.com/AlexKornitzer?lang=
 
     ./chainsaw search mimikatz -i evtx_attack_samples/
 
- *Search all .evtx files for powershell script block events (Event ID 4014)
+   *Search all .evtx files for powershell script block events (Event ID 4014)*
 
     ./chainsaw search -t 'Event.System.EventID: =4104' evtx_attack_samples/
 
