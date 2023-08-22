@@ -446,6 +446,9 @@ groups:
       - from: PrivilegeList
         to: Event.EventData.PrivilegeList
         visible: false
+      - from: ParentProcessName
+        to: Event.EventData.ParentProcessName 
+        visible: false
       - from: ProcessId
         to: Event.EventData.ProcessId
         visible: false
@@ -568,6 +571,12 @@ groups:
         visible: false
       - from: SubjectUserSid
         to: Event.EventData.SubjectUserSid
+        visible: false
+      - from: NewProcessId
+        to: Event.EventData.NewProcessId
+        visible: false
+      - from: NewProcessName
+        to: Event.EventData.NewProcessName
         visible: false
       - from: TargetFilename
         to: Event.EventData.TargetFilename
